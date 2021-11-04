@@ -38,8 +38,7 @@ class MainActivity : AppCompatActivity() {
                 }
             }
         } else {
-            setTheme(R.style.SplashTheme)
-
+            // set main login activity and switch to app theme automatically
             setContentView(R.layout.activity_main)
             this@MainActivity.findViewById<View>(android.R.id.content).rootView.startAnimation(
                 AnimationUtils.loadAnimation(
